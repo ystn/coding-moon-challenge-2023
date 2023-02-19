@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import JoinUs from "@/components/JoinUs";
 import Head from "next/head";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
+      <JoinUs />
 
     </>
   )
