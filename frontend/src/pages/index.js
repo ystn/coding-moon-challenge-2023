@@ -1,5 +1,8 @@
 import Hero from "@/components/Hero";
+import NavBar from "@/components/NavBar";
 import Head from "next/head";
+import Image from "next/image";
+import Map from '../assets/Map.png'
 
 
 export default function Home() {
@@ -11,8 +14,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavBar />
       <Hero />
-
+      <div style={{width: '100%', margin: 0, padding: 0}}>
+        <div style={{height: '16em'}}></div>
+        <div style={{height: '100vh', width: '100wh', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
+          <Image src={Map} height={500} style={{borderRadius: '25px'}}/>
+        </div>
+      </div>
     </>
   )
 }

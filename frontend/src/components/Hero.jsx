@@ -1,4 +1,5 @@
 const Hero = () => {
+    // from-[#DDDCDB] to-[#FFDD9C]
     return (
         <section className="flex space-x-28 max-w-5xl mx-auto mt-20 relative">
             <div className="max-w-lg flex flex-col space-y-11">
