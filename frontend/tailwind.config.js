@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "bee-pattern": "url('/bee-pattern.svg')",
+      }
+    },
   },
   plugins: [],
 }
