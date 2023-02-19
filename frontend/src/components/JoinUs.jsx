@@ -1,6 +1,6 @@
 const JoinUs = () => {
     return (
-        <section className="flex max-w-5xl m-auto mt-20 space-x-28 mb-10 relative">
+        <section className="flex max-w-5xl m-auto mt-20 space-x-28 relative">
             <div className="max-w-lg flex flex-col space-y-11">
                 <h1 className="text-5xl font-bold lead text-[#473C33]">JOIN US</h1>
                 <p className="text-xl">Our cutting-edge alert system will notify you when hornets are present in your area. Stay safe and avoid hornet attacks with our real-time map that shows hornet hotspots. Don't let hornets catch you off guard - <b>sign up today and be prepared!</b></p>
