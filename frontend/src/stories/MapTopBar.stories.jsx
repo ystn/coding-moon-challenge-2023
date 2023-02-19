@@ -9,5 +9,5 @@ const Template = (args) => <MapTopBar {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-    level: 0,
+    // level: 0,
 };
