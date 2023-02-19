@@ -15,7 +15,7 @@ const JoinUs = () => {
                 <input className="px-6 py-2 border rounded w-80" type="text" placeholder="Enter a password" />
                 <button className="bg-[#1F593A] text-white mt-3 font-semibold py-3 px-6 rounded">Create an account</button>
             </div>
-            <img className="absolute -z-10 h-[220px] w-[264px] -right-24 -top-28" src="https://pngimg.com/uploads/bee/bee_PNG74646.png" alt="bee" />
+            <img className="absolute -z-10 h-[220px] w-[264px] -right-28 -top-28" src="https://pngimg.com/uploads/bee/bee_PNG74646.png" alt="bee" />
         </section>
     )
 }
