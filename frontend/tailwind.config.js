@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bee-pattern": "url('/bee-pattern.svg')",
+        "bee-pattern": "url('/Vector.png')",
       }
     },
   },
